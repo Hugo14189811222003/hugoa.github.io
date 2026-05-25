@@ -1,0 +1,4 @@
+baseURL = 'https://Hugo14189811222003.github.io/'
+languageCode = 'es-mx'
+title = 'Mi Sitio Personal'
+theme = 'hugo-profile'
