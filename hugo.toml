@@ -1,4 +1,47 @@
-baseURL = 'https://Hugo14189811222003.github.io/'
-languageCode = 'es-mx'
-title = 'Mi Sitio Personal'
-theme = 'hugo-profile'
+baseURL = 'https://hugo14189811222003.github.io/hugoa.github.io/'
+title = "Hugo Arcos"
+theme = "hugo-profile"
+defaultContentLanguage = "es"
+
+[params]
+title = "Hugo Arcos"
+description = "Desarrollador de Software"
+
+[params.navbar]
+align = "ms-auto"
+brandName = "Hugo Arcos"
+disableSearch = true
+
+[params.hero]
+enable = true
+intro = "Hola, soy"
+title = "Hugo Arcos"
+subtitle = "Desarrollador de Software"
+content = """
+Tengo 22 años y soy desarrollador de software.
+
+Me especializo en desarrollo web, aplicaciones full-stack, bases de datos e inteligencia artificial.
+
+Disfruto crear soluciones tecnológicas innovadoras y aprender nuevas herramientas constantemente.
+
+Actualmente vivo en el planeta Marte 🚀.
+"""
+image = ""
+roundImage = false
+
+[params.about]
+enable = true
+title = "Sobre mí"
+content = """
+Soy Hugo Arcos, desarrollador de software apasionado por la tecnología y la innovación.
+
+Trabajo en proyectos web, automatización e inteligencia artificial, buscando siempre crear soluciones útiles y eficientes.
+"""
+
+[[params.socialIcons]]
+name = "facebook"
+url = "https://www.facebook.com/hugo.arcos.403811/"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/hugo14189811222003"
